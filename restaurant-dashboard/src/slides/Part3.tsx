@@ -205,31 +205,9 @@ const MetricItem = styled.li`
   }
 `;
 
-const ComingSoonOverlay = styled.div`
-  background: rgba(255, 255, 255, 0.95);
-  padding: 3rem;
-  border-radius: 12px;
-  text-align: center;
-  border: 2px dashed #cbd5e1;
-`;
 
-const ComingSoonIcon = styled.div`
-  font-size: 4rem;
-  margin-bottom: 1rem;
-`;
 
-const ComingSoonText = styled.h3`
-  color: #475569;
-  margin-bottom: 1rem;
-`;
 
-const ComingSoonDescription = styled.p`
-  color: #64748b;
-  font-size: 1.1rem;
-  line-height: 1.6;
-  max-width: 600px;
-  margin: 0 auto 1.5rem;
-`;
 
 const Part3: React.FC = () => {
   const [activeTab, setActiveTab] = useState('peak-performance');

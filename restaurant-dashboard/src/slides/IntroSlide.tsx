@@ -19,43 +19,10 @@ const Title = styled(motion.h1)`
   background-clip: text;
 `;
 
-const Subtitle = styled(motion.h2)`
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  color: #666;
-`;
 
-const StatsGrid = styled(motion.div)`
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  margin-top: 3rem;
-`;
 
-const StatCard = styled(motion.div)`
-  background: white;
-  padding: 2rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease;
 
-  &:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
-  }
-`;
 
-const StatValue = styled.h3`
-  font-size: 2.5rem;
-  font-weight: bold;
-  color: #667eea;
-  margin-bottom: 0.5rem;
-`;
-
-const StatLabel = styled.p`
-  font-size: 1rem;
-  color: #666;
-`;
 
 const IntroSlide: React.FC = () => {
   return (
