@@ -1,0 +1,106 @@
+{
+  "drivers": {
+    "casual bistro": {
+      "is_weekend": 0.27747168939658007,
+      "economic_indicator": 0.12454440017430994,
+      "social_trend": 0.03541030331828585,
+      "local_event": 0.030127921866640026,
+      "temperature": -0.013523338850869999,
+      "competitor_promo": -0.023708929987580646,
+      "reputation_score": -0.04730729356743839,
+      "precipitation": -0.04820835995121903
+    },
+    "seafood": {
+      "is_weekend": 0.28885422198150407,
+      "economic_indicator": 0.05592610354546866,
+      "temperature": 0.04206579269176623,
+      "local_event": 0.03274371446085628,
+      "social_trend": 0.0008959071935857902,
+      "competitor_promo": -0.00013490523191585303,
+      "reputation_score": -0.0316138651418487,
+      "precipitation": -0.067648671378988
+    },
+    "family restaurant": {
+      "is_weekend": 0.22019947640281115,
+      "economic_indicator": 0.08935809221942331,
+      "social_trend": 0.024142505113442483,
+      "local_event": 0.015214645554104692,
+      "competitor_promo": 0.010757352355169492,
+      "reputation_score": -0.009771271958247936,
+      "precipitation": -0.010753794599846005,
+      "temperature": -0.03581554004177326
+    },
+    "fine dining": {
+      "is_weekend": 0.17170045025754227,
+      "economic_indicator": 0.09858572836434691,
+      "reputation_score": 0.035488266508086695,
+      "social_trend": 0.019786390711735886,
+      "precipitation": 0.015073872649316256,
+      "local_event": 0.01241091652462694,
+      "competitor_promo": 0.006257887820906707,
+      "temperature": -0.033549576465122105
+    },
+    "fast casual": {
+      "is_weekend": 0.1532403724005016,
+      "economic_indicator": 0.15205876927333184,
+      "social_trend": 0.05763837071969476,
+      "local_event": 0.03035507092438127,
+      "reputation_score": 0.00435968599681545,
+      "precipitation": -0.006140299587888663,
+      "competitor_promo": -0.00737584285816139,
+      "temperature": -0.016372983674262778
+    }
+  },
+  "impacts": {
+    "High Temperature (>25\u00b0C)": "-4.4% change",
+    "Rainy Weather": "-3.0% change",
+    "casual bistro Weekend Effect": "36.0% change",
+    "seafood Weekend Effect": "44.1% change",
+    "family restaurant Weekend Effect": "32.2% change",
+    "fine dining Weekend Effect": "17.7% change",
+    "fast casual Weekend Effect": "24.7% change",
+    "Major Local Events": "1.0% increase"
+  },
+  "peak_analysis": {
+    "casual bistro": {
+      "peak_hours": "[19.0, 20.0, 18.0]",
+      "peak_days": "['Sunday', 'Saturday']",
+      "volatility_period": "Dinner",
+      "peak_avg_demand": "68.57955227114003",
+      "normal_avg_demand": "32.55091363463545"
+    },
+    "fast casual": {
+      "peak_hours": "[19.0, 20.0, 18.0]",
+      "peak_days": "['Saturday', 'Sunday']",
+      "volatility_period": "Afternoon",
+      "peak_avg_demand": "78.92258261008666",
+      "normal_avg_demand": "37.77510204491776"
+    },
+    "family restaurant": {
+      "peak_hours": "[19.0, 18.0, 20.0]",
+      "peak_days": "['Saturday', 'Sunday']",
+      "volatility_period": "Morning",
+      "peak_avg_demand": "65.24636942675158",
+      "normal_avg_demand": "34.24914356898162"
+    },
+    "seafood": {
+      "peak_hours": "[18.0, 19.0, 20.0]",
+      "peak_days": "['Sunday', 'Saturday']",
+      "volatility_period": "Afternoon",
+      "peak_avg_demand": "78.20653566470615",
+      "normal_avg_demand": "36.15154451847365"
+    },
+    "fine dining": {
+      "peak_hours": "[19.0, 18.0, 20.0]",
+      "peak_days": "['Saturday', 'Sunday']",
+      "volatility_period": "Afternoon",
+      "peak_avg_demand": "39.74007851399642",
+      "normal_avg_demand": "20.797495303694426"
+    }
+  },
+  "high_volatility_periods": [
+    "High Local Events: 12.1",
+    "Viral Social Media: 12.0",
+    "Extreme Weather: 11.7"
+  ]
+}

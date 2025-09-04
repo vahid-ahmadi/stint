@@ -1,0 +1,60 @@
+{
+  "temperature": {
+    "overall_high_temp": {
+      "baseline_demand": 39.49845242415602,
+      "condition_demand": 38.260476266477326,
+      "percentage_change": -3.1342396516821176,
+      "sample_size": 100215
+    },
+    "temp_range_<10\u00b0C": -9.762700280326621,
+    "temp_range_10-15\u00b0C": -4.633989592171609,
+    "temp_range_20-25\u00b0C": 3.012781699536191,
+    "temp_range_25-30\u00b0C": -2.291506606807157,
+    "temp_range_>30\u00b0C": -9.519736059650212,
+    "casual bistro_high_temp": -3.7880388980361492,
+    "seafood_high_temp": -0.7580716047816493,
+    "family restaurant_high_temp": -3.3440917432194697,
+    "fine dining_high_temp": -2.5122804526216016,
+    "fast casual_high_temp": -4.945207172629367
+  },
+  "precipitation": {
+    "overall_rain": {
+      "baseline_demand": 39.47223199105005,
+      "condition_demand": 37.89307554212575,
+      "percentage_change": -4.000676853749644,
+      "sample_size": 76258
+    },
+    "rain_Light Rain (0-5mm)": -4.000676853749644,
+    "casual bistro_rain": -5.028406844585385,
+    "seafood_rain": -12.075905346486634,
+    "family restaurant_rain": -0.18607755776410448,
+    "fine dining_rain": 0.8925410346607238,
+    "fast casual_rain": -1.0245294457968694
+  },
+  "events": {
+    "major_events": 8.902693732458152,
+    "casual bistro_major_events": 13.717955050118741,
+    "seafood_major_events": 9.963268343219472,
+    "family restaurant_major_events": 6.3700764063719415,
+    "fine dining_major_events": 5.252297088099791,
+    "fast casual_major_events": 7.472952364616393
+  },
+  "social": {
+    "trending": -1.4367689483792863,
+    "viral": 6.487087717498967,
+    "casual bistro_viral": 9.677411694208557,
+    "seafood_viral": 1.3524974899684596,
+    "family restaurant_viral": 4.002495078703151,
+    "fine dining_viral": 2.710741818948823,
+    "fast casual_viral": 13.69519223291913
+  },
+  "combined": {
+    "perfect_storm_positive": -0.7165868852654056,
+    "weekend_good_weather": 25.09227421163286
+  },
+  "reputation": {
+    "medium_reputation": 2.8123414509851727,
+    "high_reputation": -31.87837169610556,
+    "per_point_increase": -37.405437747751975
+  }
+}

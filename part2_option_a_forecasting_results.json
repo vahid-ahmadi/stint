@@ -1,0 +1,326 @@
+{
+  "analysis_timestamp": "2025-09-03T23:27:43.175761",
+  "model_configuration": {
+    "best_model": "LightGBM",
+    "asymmetric_loss_ratio": 3.0,
+    "features_used": 57,
+    "training_samples": 183129,
+    "test_samples": 45782
+  },
+  "model_performance": {
+    "XGBoost": {
+      "mae": 0.47,
+      "rmse": 2.74,
+      "mape": 111.67,
+      "asymmetric_loss": 23.38,
+      "understaffing_rate_pct": 31.3,
+      "severe_understaffing_rate_pct": 2.8,
+      "avg_understaffing_magnitude": 0.31,
+      "avg_overstaffing_magnitude": 0.54,
+      "total_predictions": 45782
+    },
+    "LightGBM": {
+      "mae": 0.35,
+      "rmse": 2.53,
+      "mape": 99.44,
+      "asymmetric_loss": 21.19,
+      "understaffing_rate_pct": 35.5,
+      "severe_understaffing_rate_pct": 3.5,
+      "avg_understaffing_magnitude": 0.22,
+      "avg_overstaffing_magnitude": 0.42,
+      "total_predictions": 45782
+    }
+  },
+  "forecasting_horizons": {
+    "24_hours": "48 periods (30-minute intervals)",
+    "7_days": "Daily averages",
+    "prediction_intervals": [
+      "80%",
+      "95%"
+    ]
+  },
+  "feature_importance": [
+    {
+      "feature": "is_weekend",
+      "importance": 0.9955573685140783
+    },
+    {
+      "feature": "capacity_available",
+      "importance": 0.9921775396917433
+    },
+    {
+      "feature": "week_of_year",
+      "importance": 0.9728433015309099
+    },
+    {
+      "feature": "is_viral_trend",
+      "importance": 0.9618395374139799
+    },
+    {
+      "feature": "demand_ma_48",
+      "importance": 0.9523037723048977
+    },
+    {
+      "feature": "demand_std_12",
+      "importance": 0.861297201404524
+    },
+    {
+      "feature": "temperature",
+      "importance": 0.8563802984589367
+    },
+    {
+      "feature": "is_cold_weather",
+      "importance": 0.8425309463121508
+    },
+    {
+      "feature": "is_peak_period",
+      "importance": 0.8366718553185861
+    },
+    {
+      "feature": "month",
+      "importance": 0.8325403574209278
+    },
+    {
+      "feature": "local_event",
+      "importance": 0.7889710513303311
+    },
+    {
+      "feature": "is_dinner_period",
+      "importance": 0.7839514122158749
+    },
+    {
+      "feature": "capacity_utilization",
+      "importance": 0.7598461604240347
+    },
+    {
+      "feature": "quarter",
+      "importance": 0.75071025154224
+    },
+    {
+      "feature": "hour_cos",
+      "importance": 0.730929121798863
+    },
+    {
+      "feature": "is_rainy",
+      "importance": 0.7307451628281469
+    },
+    {
+      "feature": "demand_ma_168",
+      "importance": 0.7290020841953915
+    },
+    {
+      "feature": "is_holiday_season",
+      "importance": 0.6910926359908146
+    },
+    {
+      "feature": "hour",
+      "importance": 0.6862425982141593
+    },
+    {
+      "feature": "demand_lag_1",
+      "importance": 0.6686743743252708
+    },
+    {
+      "feature": "demand_std_168",
+      "importance": 0.6487278489076201
+    },
+    {
+      "feature": "event_social_interaction",
+      "importance": 0.6402996692550817
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.6340157869209527
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.596397725698356
+    },
+    {
+      "feature": "restaurant_type_encoded",
+      "importance": 0.5784411710065944
+    },
+    {
+      "feature": "is_fine_dining",
+      "importance": 0.5097383031152125
+    },
+    {
+      "feature": "hour_sin",
+      "importance": 0.47406209574141134
+    },
+    {
+      "feature": "is_fast_casual",
+      "importance": 0.46056172548658114
+    },
+    {
+      "feature": "competitor_promo",
+      "importance": 0.4257392632154724
+    },
+    {
+      "feature": "is_high_competition",
+      "importance": 0.4168856430964175
+    },
+    {
+      "feature": "is_near_capacity",
+      "importance": 0.4093966747136615
+    },
+    {
+      "feature": "precipitation",
+      "importance": 0.4011839132199855
+    },
+    {
+      "feature": "is_family_restaurant",
+      "importance": 0.3347242240697176
+    },
+    {
+      "feature": "is_casual_bistro",
+      "importance": 0.28728755132331496
+    },
+    {
+      "feature": "demand_std_336",
+      "importance": 0.2771051961692187
+    },
+    {
+      "feature": "revenue_per_customer",
+      "importance": 0.27387401876910833
+    },
+    {
+      "feature": "is_lunch_period",
+      "importance": 0.26398744614631964
+    },
+    {
+      "feature": "is_seafood",
+      "importance": 0.2199487988462735
+    },
+    {
+      "feature": "is_major_event",
+      "importance": 0.21650913031713415
+    },
+    {
+      "feature": "temp_precip_interaction",
+      "importance": 0.21401310882808144
+    },
+    {
+      "feature": "is_hot_weather",
+      "importance": 0.19825955904375936
+    },
+    {
+      "feature": "demand_std_48",
+      "importance": 0.19813389369570378
+    },
+    {
+      "feature": "reputation_score",
+      "importance": 0.19444699453718017
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.1943426097772143
+    },
+    {
+      "feature": "demand_lag_48",
+      "importance": 0.18209382630362902
+    },
+    {
+      "feature": "is_high_revenue_period",
+      "importance": 0.14717388896188466
+    },
+    {
+      "feature": "dow_cos",
+      "importance": 0.11813109257764298
+    },
+    {
+      "feature": "demand_ma_12",
+      "importance": 0.06671692550833974
+    },
+    {
+      "feature": "social_trend",
+      "importance": 0.05934377111503364
+    },
+    {
+      "feature": "competitor_economic_interaction",
+      "importance": 0.0536645683602367
+    },
+    {
+      "feature": "demand_lag_336",
+      "importance": 0.043008277219819924
+    },
+    {
+      "feature": "demand_lag_2",
+      "importance": 0.03720744869085646
+    },
+    {
+      "feature": "day_of_year",
+      "importance": 0.029756463880108885
+    },
+    {
+      "feature": "demand_ma_336",
+      "importance": 0.0295337142309966
+    },
+    {
+      "feature": "is_summer",
+      "importance": 0.021388968591525614
+    },
+    {
+      "feature": "dow_sin",
+      "importance": 0.011237510230339365
+    },
+    {
+      "feature": "economic_indicator",
+      "importance": 0.008149404365752955
+    }
+  ],
+  "business_impact": {
+    "understaffing_reduction_pct": 29.0,
+    "recommended_penalty_ratio": "3:1",
+    "implementation_readiness": "Production-ready",
+    "update_frequency": "Weekly retrain, real-time inference"
+  },
+  "forecasts_sample": {
+    "casual bistro": {
+      "24h_sample": [
+        2.011027327046845,
+        2.011027327046845,
+        2.0233114979767026,
+        2.0233114979767026,
+        2.2095875175272006,
+        2.2095875175272006,
+        2.184083748819897,
+        2.184083748819897,
+        2.141584473529538,
+        2.141584473529538
+      ],
+      "7d_sample": [
+        2.1123367975213494,
+        2.0518899296961246,
+        1.9238505832555666,
+        1.9595479341838338,
+        1.909027786234263,
+        2.0763346631016155,
+        2.1118191096189047
+      ]
+    },
+    "seafood": {
+      "24h_sample": [
+        2.779180908337238,
+        2.779180908337238,
+        2.7914650792670956,
+        2.7914650792670956,
+        2.9780585136226803,
+        2.9780585136226803,
+        2.964589615416633,
+        2.964589615416633,
+        2.9542154637867455,
+        2.9542154637867455
+      ],
+      "7d_sample": [
+        3.0271765349068493,
+        3.0299431520746665,
+        2.910905582698205,
+        2.986655511588293,
+        2.970814892049173,
+        3.0145738143662553,
+        3.0271414860677477
+      ]
+    }
+  }
+}

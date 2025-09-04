@@ -1,0 +1,406 @@
+{
+  "demand_drivers": {
+    "casual bistro": {
+      "correlations": {
+        "temperature": 0.03037797614875537,
+        "precipitation": -0.043144465361078146,
+        "economic_indicator": 0.07982377967576397,
+        "competitor_promo": -0.006562637925579455,
+        "social_trend": 0.04069576185254481,
+        "local_event": 0.012398759524578693,
+        "reputation_score": -0.027279558631146474
+      },
+      "weekend_lift": 49.545834665614194,
+      "avg_customers": 82.9989843572673
+    },
+    "NaN": {
+      "correlations": {},
+      "weekend_lift": 0,
+      "avg_customers": NaN
+    },
+    "seafood": {
+      "correlations": {
+        "temperature": 0.07506736151790742,
+        "precipitation": -0.08507090546486336,
+        "economic_indicator": 0.031270192658054335,
+        "competitor_promo": -0.021136532075105005,
+        "social_trend": 0.00738168980158071,
+        "local_event": 0.00944707195784745,
+        "reputation_score": -0.029199705044380193
+      },
+      "weekend_lift": 52.20461809632051,
+      "avg_customers": 92.57015863828617
+    },
+    "family restaurant": {
+      "correlations": {
+        "temperature": 0.023676755020901618,
+        "precipitation": -0.021743274270312325,
+        "economic_indicator": 0.0687781023731304,
+        "competitor_promo": 0.002278610983069941,
+        "social_trend": 0.01650086815728671,
+        "local_event": 0.002804939097218403,
+        "reputation_score": -0.0010233763790749575
+      },
+      "weekend_lift": 44.48851962385601,
+      "avg_customers": 97.98663432348874
+    },
+    "fine dining": {
+      "correlations": {
+        "temperature": 0.017178927983036458,
+        "precipitation": -0.010612299677339903,
+        "economic_indicator": 0.030723844387468047,
+        "competitor_promo": 0.007409185498663493,
+        "social_trend": 0.00841169189124311,
+        "local_event": 0.00170458871825911,
+        "reputation_score": 0.025880864188278004
+      },
+      "weekend_lift": 23.815491484913178,
+      "avg_customers": 51.12695964598952
+    },
+    "fast casual": {
+      "correlations": {
+        "temperature": 0.015687313202331656,
+        "precipitation": -0.027433627566528094,
+        "economic_indicator": 0.11326445669497222,
+        "competitor_promo": -0.006204808011765242,
+        "social_trend": 0.05780563572591273,
+        "local_event": 0.006210569034671925,
+        "reputation_score": -0.011281985793765261
+      },
+      "weekend_lift": 26.785595029252928,
+      "avg_customers": 94.65609894053368
+    }
+  },
+  "external_factors": {
+    "temperature": [
+      {
+        "category": "Cold",
+        "avg_demand": 79.59931746892177,
+        "pct_change_from_baseline": 0.11749771935939649,
+        "sample_size": 75920
+      },
+      {
+        "category": "Mild",
+        "avg_demand": 87.3013749115436,
+        "pct_change_from_baseline": 9.804901367602161,
+        "sample_size": 53129
+      },
+      {
+        "category": "Warm",
+        "avg_demand": 86.97887124839885,
+        "pct_change_from_baseline": 9.399266485469072,
+        "sample_size": 79614
+      },
+      {
+        "category": "Hot",
+        "avg_demand": 79.73304990162919,
+        "pct_change_from_baseline": 0.28570213306956244,
+        "sample_size": 21633
+      }
+    ],
+    "competitor_promo_impact": NaN,
+    "competitor_promo_detailed": {
+      "high_promo_avg": NaN,
+      "medium_promo_avg": NaN,
+      "low_promo_avg": 83.89032620335334
+    },
+    "local_event_lift": 7.362008513529614,
+    "event_analysis": {
+      "no_event_avg": 83.83248755345352,
+      "low_event_avg": NaN,
+      "high_event_avg": 90.00424242424242,
+      "max_event_impact": 105.3
+    },
+    "economic_impact": 13.011876647358642,
+    "weather_combination_effect": 0
+  },
+  "peak_analysis": {
+    "overall_peak_hours": [
+      19.0,
+      18.0,
+      20.0
+    ],
+    "by_restaurant_type": {
+      "casual bistro": {
+        "peak_hours": [
+          19.0,
+          18.0,
+          20.0
+        ],
+        "peak_days": [
+          "Saturday",
+          "Sunday",
+          "Friday"
+        ],
+        "peak_volatility": 111.52363531112125,
+        "avg_peak_demand": 150.69575531921953
+      },
+      "NaN": {
+        "peak_hours": [],
+        "peak_days": [],
+        "peak_volatility": NaN,
+        "avg_peak_demand": NaN
+      },
+      "seafood": {
+        "peak_hours": [
+          19.0,
+          18.0,
+          20.0
+        ],
+        "peak_days": [
+          "Sunday",
+          "Saturday",
+          "Friday"
+        ],
+        "peak_volatility": 90.35981556195287,
+        "avg_peak_demand": 158.6261783623432
+      },
+      "family restaurant": {
+        "peak_hours": [
+          19.0,
+          18.0,
+          20.0
+        ],
+        "peak_days": [
+          "Saturday",
+          "Sunday",
+          "Friday"
+        ],
+        "peak_volatility": 92.6414392372013,
+        "avg_peak_demand": 152.3979890126967
+      },
+      "fine dining": {
+        "peak_hours": [
+          19.0,
+          18.0,
+          20.0
+        ],
+        "peak_days": [
+          "Saturday",
+          "Sunday",
+          "Friday"
+        ],
+        "peak_volatility": 439.914430110216,
+        "avg_peak_demand": 207.25713567569304
+      },
+      "fast casual": {
+        "peak_hours": [
+          19.0,
+          18.0,
+          20.0
+        ],
+        "peak_days": [
+          "Sunday",
+          "Saturday",
+          "Friday"
+        ],
+        "peak_volatility": 94.34394414013865,
+        "avg_peak_demand": 158.74249393259623
+      }
+    },
+    "daily_patterns": [
+      {
+        "day_of_week": "Friday",
+        "mean": 79.07685153230396,
+        "std": 56.472278000701756
+      },
+      {
+        "day_of_week": "Monday",
+        "mean": 69.2375688551713,
+        "std": 59.48402858223145
+      },
+      {
+        "day_of_week": "Saturday",
+        "mean": 105.28520488179093,
+        "std": 68.82223915100559
+      },
+      {
+        "day_of_week": "Sunday",
+        "mean": 106.04255384955877,
+        "std": 72.82775690890242
+      },
+      {
+        "day_of_week": "Thursday",
+        "mean": 75.56471657178015,
+        "std": 51.85830448346814
+      },
+      {
+        "day_of_week": "Tuesday",
+        "mean": 76.41186091595345,
+        "std": 75.1803642807172
+      },
+      {
+        "day_of_week": "Wednesday",
+        "mean": 75.4380254912743,
+        "std": 52.073823454149235
+      }
+    ]
+  },
+  "difficulty_analysis": {
+    "casual bistro": {
+      "difficult_hours": [
+        17.0,
+        8.0,
+        16.0
+      ],
+      "peak_volatility": 111.52363531112125,
+      "non_peak_volatility": 30.409321204846584,
+      "overall_cv": 0.7781994903084344
+    },
+    "NaN": {
+      "difficult_hours": [],
+      "peak_volatility": NaN,
+      "non_peak_volatility": NaN,
+      "overall_cv": NaN
+    },
+    "seafood": {
+      "difficult_hours": [
+        23.0,
+        16.0,
+        15.0
+      ],
+      "peak_volatility": 90.35981556195287,
+      "non_peak_volatility": 29.639904575000255,
+      "overall_cv": 0.6915276668877911
+    },
+    "family restaurant": {
+      "difficult_hours": [
+        23.0,
+        8.0,
+        16.0
+      ],
+      "peak_volatility": 92.6414392372013,
+      "non_peak_volatility": 30.97523788631306,
+      "overall_cv": 0.6798981848996537
+    },
+    "fine dining": {
+      "difficult_hours": [
+        23.0,
+        8.0,
+        12.0
+      ],
+      "peak_volatility": 439.914430110216,
+      "non_peak_volatility": 21.190163490836913,
+      "overall_cv": 0.8762909514554951
+    },
+    "fast casual": {
+      "difficult_hours": [
+        23.0,
+        22.0,
+        15.0
+      ],
+      "peak_volatility": 94.34394414013865,
+      "non_peak_volatility": 30.77538475833408,
+      "overall_cv": 0.7240210262779332
+    }
+  },
+  "insights": {
+    "key_findings": [
+      "Dataset contains 233,760 records across 6 restaurant types",
+      "Average customers per period: 83.9",
+      "Peak demand varies from 0 to 4005 customers",
+      "Casual Bistro restaurants show 49.5% higher demand on weekends",
+      "Seafood restaurants show 52.2% higher demand on weekends",
+      "Family Restaurant restaurants show 44.5% higher demand on weekends",
+      "Fine Dining restaurants show 23.8% higher demand on weekends",
+      "Fast Casual restaurants show 26.8% higher demand on weekends",
+      "Warm weather (15-25\u00b0C) increases demand by 9.4% compared to cold weather (<15\u00b0C)"
+    ],
+    "actionable_recommendations": [
+      "Focus staffing on peak hours (19.0:00, 18.0:00, 20.0:00) - revenue is 190.6% higher",
+      "Implement weather-based staffing: increase staff by 0% on sunny warm days",
+      "Deploy dynamic pricing during high-demand periods to optimize revenue per customer",
+      "Monitor competitor promotions closely - they impact demand by nan%",
+      "Weekend staffing for seafood should be 52% higher than weekdays",
+      "Implement event-driven staffing alerts - local events boost demand significantly",
+      "Focus inventory management on peak volatility periods to avoid stockouts"
+    ],
+    "forecasting_challenges": [
+      "High variability during peak periods requires robust models (CV: 0.78)",
+      "External factors have complex interactions requiring ensemble methods",
+      "Restaurant type significantly affects demand patterns - casual bistro is most unpredictable",
+      "Asymmetric cost of understaffing vs overstaffing requires custom loss functions",
+      "Capacity constraints create non-linear demand relationships during peak periods"
+    ],
+    "quantified_impacts": {
+      "temperature_effect": 0,
+      "competitor_promo_effect": NaN,
+      "local_event_effect": 7.362008513529614,
+      "economic_effect": 13.011876647358642
+    },
+    "peak_insights": {
+      "revenue_multiplier": 190.6295310080959,
+      "peak_hours": [
+        19.0,
+        18.0,
+        20.0
+      ],
+      "capacity_utilization": {
+        "casual bistro": {
+          "average": 0.5321468049207219,
+          "peak": 0.7056783606740243
+        },
+        "NaN": {
+          "average": NaN,
+          "peak": NaN
+        },
+        "seafood": {
+          "average": 0.4953793553700091,
+          "peak": 0.6564021066582603
+        },
+        "family restaurant": {
+          "average": 0.4618003424210073,
+          "peak": 0.5957191928136103
+        },
+        "fine dining": {
+          "average": 0.525155718150969,
+          "peak": 0.7770162529567051
+        },
+        "fast casual": {
+          "average": 0.5128899287076678,
+          "peak": 0.6708934372754578
+        }
+      }
+    },
+    "volatility_analysis": {
+      "casual bistro": {
+        "staffing_challenge_score": 0.7781994903084344,
+        "peak_unpredictability": 111.52363531112125,
+        "operational_difficulty": "High"
+      },
+      "seafood": {
+        "staffing_challenge_score": 0.6915276668877911,
+        "peak_unpredictability": 90.35981556195287,
+        "operational_difficulty": "High"
+      },
+      "family restaurant": {
+        "staffing_challenge_score": 0.6798981848996537,
+        "peak_unpredictability": 92.6414392372013,
+        "operational_difficulty": "High"
+      },
+      "fine dining": {
+        "staffing_challenge_score": 0.8762909514554951,
+        "peak_unpredictability": 439.914430110216,
+        "operational_difficulty": "High"
+      },
+      "fast casual": {
+        "staffing_challenge_score": 0.7240210262779332,
+        "peak_unpredictability": 94.34394414013865,
+        "operational_difficulty": "High"
+      }
+    }
+  },
+  "summary_stats": {
+    "total_records": 233760,
+    "date_range": "2021-01-01 08:00:00 to 2024-12-31 23:30:00",
+    "restaurant_types": [
+      "casual bistro",
+      NaN,
+      "seafood",
+      "family restaurant",
+      "fine dining",
+      "fast casual"
+    ],
+    "avg_daily_customers": 13279.599919841157
+  }
+}

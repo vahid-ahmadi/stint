@@ -1,0 +1,158 @@
+{
+  "generated_at": "2025-09-03T20:50:08.670263",
+  "total_insights": 18,
+  "high_priority_insights": 12,
+  "insights": [
+    {
+      "category": "weekend_patterns",
+      "restaurant_type": "casual bistro",
+      "insight": "Casual Bistro restaurants show 40% higher demand on weekends",
+      "action": "Increase weekend staffing by 27% for casual bistro locations",
+      "impact": "39.8% demand increase",
+      "priority": "high"
+    },
+    {
+      "category": "weekend_patterns",
+      "restaurant_type": "fine dining",
+      "insight": "Fine Dining restaurants show 17% higher demand on weekends",
+      "action": "Increase weekend staffing by 15% for fine dining locations",
+      "impact": "17.4% demand increase",
+      "priority": "medium"
+    },
+    {
+      "category": "weekend_patterns",
+      "restaurant_type": "family restaurant",
+      "insight": "Family Restaurant restaurants show 31% higher demand on weekends",
+      "action": "Increase weekend staffing by 21% for family restaurant locations",
+      "impact": "30.8% demand increase",
+      "priority": "high"
+    },
+    {
+      "category": "weekend_patterns",
+      "restaurant_type": "fast casual",
+      "insight": "Fast Casual restaurants show 16% higher demand on weekends",
+      "action": "Increase weekend staffing by 15% for fast casual locations",
+      "impact": "16.3% demand increase",
+      "priority": "medium"
+    },
+    {
+      "category": "weekend_patterns",
+      "restaurant_type": "seafood",
+      "insight": "Seafood restaurants show 45% higher demand on weekends",
+      "action": "Increase weekend staffing by 31% for seafood locations",
+      "impact": "45.4% demand increase",
+      "priority": "high"
+    },
+    {
+      "category": "temperature_impact",
+      "restaurant_type": "casual bistro",
+      "insight": "Temperature above 32\u00b0C decreases casual bistro demand by 13%",
+      "action": "Implement weather-based staffing alerts for casual bistro locations",
+      "impact": "13.0% demand change",
+      "priority": "medium"
+    },
+    {
+      "category": "temperature_impact",
+      "restaurant_type": "seafood",
+      "insight": "Temperature above 32\u00b0C decreases seafood demand by 15%",
+      "action": "Implement weather-based staffing alerts for seafood locations",
+      "impact": "14.9% demand change",
+      "priority": "medium"
+    },
+    {
+      "category": "events",
+      "restaurant_type": "all",
+      "insight": "Major local events increase overall demand by 7%",
+      "action": "Monitor local event calendars and pre-schedule +20% staff during major events",
+      "impact": "7.4% demand increase",
+      "priority": "high"
+    },
+    {
+      "category": "peak_hours",
+      "restaurant_type": "casual bistro",
+      "insight": "Casual Bistro restaurants peak at 19.0:00 with 1.5x average demand",
+      "action": "Schedule peak staff shift 17:30-22:00 for casual bistro locations",
+      "impact": "1.5x demand multiplier",
+      "priority": "high"
+    },
+    {
+      "category": "peak_hours",
+      "restaurant_type": "fine dining",
+      "insight": "Fine Dining restaurants peak at 19.0:00 with 1.4x average demand",
+      "action": "Schedule peak staff shift 17:30-22:00 for fine dining locations",
+      "impact": "1.4x demand multiplier",
+      "priority": "medium"
+    },
+    {
+      "category": "peak_hours",
+      "restaurant_type": "family restaurant",
+      "insight": "Family Restaurant restaurants peak at 18.0:00 with 1.4x average demand",
+      "action": "Schedule peak staff shift 17:30-22:00 for family restaurant locations",
+      "impact": "1.4x demand multiplier",
+      "priority": "medium"
+    },
+    {
+      "category": "peak_hours",
+      "restaurant_type": "fast casual",
+      "insight": "Fast Casual restaurants peak at 19.0:00 with 1.6x average demand",
+      "action": "Schedule peak staff shift 17:30-22:00 for fast casual locations",
+      "impact": "1.6x demand multiplier",
+      "priority": "high"
+    },
+    {
+      "category": "peak_hours",
+      "restaurant_type": "seafood",
+      "insight": "Seafood restaurants peak at 19.0:00 with 1.5x average demand",
+      "action": "Schedule peak staff shift 17:30-22:00 for seafood locations",
+      "impact": "1.5x demand multiplier",
+      "priority": "high"
+    },
+    {
+      "category": "volatility",
+      "restaurant_type": "casual bistro",
+      "insight": "Casual Bistro restaurants show 0.6 coefficient of variation (hardest to predict)",
+      "action": "Implement flexible staffing model with on-call staff for casual bistro",
+      "impact": "0.6 CV (high volatility)",
+      "priority": "high"
+    },
+    {
+      "category": "volatility",
+      "restaurant_type": "seafood",
+      "insight": "Seafood restaurants show 0.6 coefficient of variation (hardest to predict)",
+      "action": "Implement flexible staffing model with on-call staff for seafood",
+      "impact": "0.6 CV (high volatility)",
+      "priority": "high"
+    },
+    {
+      "category": "volatility",
+      "restaurant_type": "fast casual",
+      "insight": "Fast Casual restaurants show 0.6 coefficient of variation (hardest to predict)",
+      "action": "Implement flexible staffing model with on-call staff for fast casual",
+      "impact": "0.6 CV (high volatility)",
+      "priority": "high"
+    },
+    {
+      "category": "volatility",
+      "restaurant_type": "family restaurant",
+      "insight": "Family Restaurant restaurants show 0.5 coefficient of variation (hardest to predict)",
+      "action": "Implement flexible staffing model with on-call staff for family restaurant",
+      "impact": "0.5 CV (high volatility)",
+      "priority": "high"
+    },
+    {
+      "category": "volatility",
+      "restaurant_type": "fine dining",
+      "insight": "Fine Dining restaurants show 0.5 coefficient of variation (hardest to predict)",
+      "action": "Implement flexible staffing model with on-call staff for fine dining",
+      "impact": "0.5 CV (high volatility)",
+      "priority": "high"
+    }
+  ],
+  "top_actionable_recommendations": [
+    "Implement dynamic weekend staffing increases (20-40% based on restaurant type)",
+    "Deploy weather-based staffing alerts for temperature-sensitive locations",
+    "Create flexible on-call staffing model for high-volatility restaurants",
+    "Schedule optimized shift patterns: lunch (11:30-15:00), dinner (17:30-22:00)",
+    "Monitor local event calendars for demand spike preparation"
+  ]
+}

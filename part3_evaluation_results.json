@@ -1,0 +1,148 @@
+{
+  "analysis_timestamp": "2025-09-04T00:12:06.983772",
+  "model_evaluation": {
+    "overall_mae": 0.2687628422698822,
+    "overall_rmse": 0.34322028858556597,
+    "overall_mape": 100.39965768878336,
+    "total_samples": 45782
+  },
+  "peak_analysis": {
+    "peak_performance": {
+      "peak_metrics": {
+        "period": "Peak Periods",
+        "samples": 9543,
+        "mae": 0.2769735206001942,
+        "rmse": 0.3476424410783231,
+        "mape": 0.409014476752602,
+        "understaffing_rate_pct": 50.47678926962171,
+        "severe_understaffing_rate_pct": 0.0,
+        "avg_demand": 70.43338596916674,
+        "demand_volatility": 26.781697400009747,
+        "relative_mae": 0.3932418082547437
+      },
+      "offpeak_metrics": {
+        "period": "Off-Peak Periods",
+        "samples": 36239,
+        "mae": 0.26660068262678577,
+        "rmse": 0.342046270847571,
+        "mape": 5671309885576861.0,
+        "understaffing_rate_pct": 45.180606528877725,
+        "severe_understaffing_rate_pct": 0.0,
+        "avg_demand": 32.067233215661105,
+        "demand_volatility": 14.284199610939398,
+        "relative_mae": 0.8313803714646091
+      },
+      "peak_detection": {
+        "accuracy": 0.9915687388056441,
+        "precision": 1.0,
+        "recall": 0.9595515037200042,
+        "f1_score": 0.9793582887700535,
+        "confusion_matrix": {
+          "TP": "9157",
+          "TN": "36239",
+          "FP": "0",
+          "FN": "386"
+        }
+      }
+    },
+    "peak_type_performance": {
+      "Lunch Rush": {
+        "period": "Lunch Rush",
+        "samples": 2390,
+        "mae": 0.2758969360962832,
+        "rmse": 0.3465892587234945,
+        "mape": 0.4093175312865397,
+        "understaffing_rate_pct": 50.75313807531381,
+        "severe_understaffing_rate_pct": 0.0,
+        "avg_demand": 69.87387600959961,
+        "demand_volatility": 26.405349690760158,
+        "relative_mae": 0.3948499093686732
+      },
+      "Dinner Rush": {
+        "period": "Dinner Rush",
+        "samples": 5025,
+        "mae": 0.28187389314877076,
+        "rmse": 0.35279374384246126,
+        "mape": 0.4110929022242149,
+        "understaffing_rate_pct": 50.70646766169155,
+        "severe_understaffing_rate_pct": 0.0,
+        "avg_demand": 71.53059865436315,
+        "demand_volatility": 25.900884580221764,
+        "relative_mae": 0.39406058169705716
+      },
+      "Weekend Peak": {
+        "period": "Weekend Peak",
+        "samples": 4618,
+        "mae": 0.27312605067702206,
+        "rmse": 0.34405158280797093,
+        "mape": 0.39956474096497235,
+        "understaffing_rate_pct": 50.043308791684716,
+        "severe_understaffing_rate_pct": 0.0,
+        "avg_demand": 70.68946951032126,
+        "demand_volatility": 17.762001780704722,
+        "relative_mae": 0.3863744523321728
+      },
+      "Event-Driven": {
+        "period": "Event-Driven",
+        "samples": 426,
+        "mae": 0.2747417309196159,
+        "rmse": 0.3450147937047956,
+        "mape": 0.3145290175756674,
+        "understaffing_rate_pct": 53.051643192488264,
+        "severe_understaffing_rate_pct": 0.0,
+        "avg_demand": 93.09197277615105,
+        "demand_volatility": 57.91710109892108,
+        "relative_mae": 0.29512934652299166
+      }
+    }
+  },
+  "business_impact": {
+    "understaffing_impact": {
+      "baseline_rate": 50.0,
+      "current_rate": 46.2845659866323,
+      "reduction_pct": 7.430868026735396,
+      "severity_breakdown": {
+        "mild": "21188",
+        "moderate": "2",
+        "severe": "0"
+      }
+    },
+    "cost_impact": {
+      "understaffing_cost": 295837.93911987316,
+      "overstaffing_cost": 127754.83324804559,
+      "total_cost": 423592.77236791875,
+      "estimated_savings": 122368.00291032752,
+      "savings_pct": 22.41333232189863
+    }
+  },
+  "reliability_analysis": {
+    "best_hours": [
+      23,
+      15,
+      17
+    ],
+    "worst_hours": [
+      10,
+      20,
+      16
+    ],
+    "failure_threshold": 0.6789755082773191,
+    "potential_scenarios": [
+      "Extreme weather events (very high/low temperature or precipitation)",
+      "Major local events or viral social trends",
+      "High competitor promotional activity",
+      "Economic indicator volatility",
+      "Holiday periods with unusual patterns",
+      "New restaurant openings or closures",
+      "Significant capacity changes",
+      "Data quality issues (missing or incorrect external data)"
+    ]
+  },
+  "recommendations": [
+    "Focus additional training data on identified worst-performing hours",
+    "Implement real-time monitoring for potential failure scenarios",
+    "Consider ensemble methods for high-uncertainty periods",
+    "Regular model retraining with updated external factor data",
+    "Expected ROI: 22.4% cost reduction"
+  ]
+}
