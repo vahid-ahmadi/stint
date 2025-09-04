@@ -1,0 +1,440 @@
+{
+  "analysis_timestamp": "2025-09-03T21:04:56.532359",
+  "peak_analysis": {
+    "casual bistro": {
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "peak_days": [
+        "Saturday",
+        "Sunday",
+        "Friday"
+      ],
+      "peak_months": [
+        2.0,
+        1.0,
+        10.0
+      ],
+      "top_time_combinations": [
+        [
+          "Sunday",
+          19.0,
+          63.65217391304348
+        ],
+        [
+          "Friday",
+          18.0,
+          63.514557777518014
+        ],
+        [
+          "Saturday",
+          20.0,
+          62.92799999999999
+        ],
+        [
+          "Sunday",
+          20.0,
+          62.65882352941176
+        ],
+        [
+          "Sunday",
+          18.0,
+          61.96153846153846
+        ]
+      ],
+      "avg_peak_duration_hours": 0.7,
+      "peak_intensity_multiplier": 2.09,
+      "extreme_intensity_multiplier": 2.85,
+      "peak_frequency_pct": 5.3,
+      "demand_statistics": {
+        "normal_avg": 31.8,
+        "peak_avg": 66.6,
+        "extreme_avg": 90.7,
+        "overall_std": 23.2
+      }
+    },
+    "fine dining": {
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "peak_days": [
+        "Saturday",
+        "Sunday",
+        "Friday"
+      ],
+      "peak_months": [
+        4.0,
+        8.0,
+        10.0
+      ],
+      "top_time_combinations": [
+        [
+          "Saturday",
+          20.0,
+          37.14545454545454
+        ],
+        [
+          "Sunday",
+          18.0,
+          36.188235294117646
+        ],
+        [
+          "Saturday",
+          19.0,
+          36.130909090909086
+        ],
+        [
+          "Sunday",
+          19.0,
+          36.087272727272726
+        ],
+        [
+          "Friday",
+          18.0,
+          35.51020408163265
+        ]
+      ],
+      "avg_peak_duration_hours": 0.7,
+      "peak_intensity_multiplier": 1.8,
+      "extreme_intensity_multiplier": 2.35,
+      "peak_frequency_pct": 5.3,
+      "demand_statistics": {
+        "normal_avg": 21.4,
+        "peak_avg": 38.4,
+        "extreme_avg": 50.2,
+        "overall_std": 11.1
+      }
+    },
+    "family restaurant": {
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "peak_days": [
+        "Sunday",
+        "Saturday",
+        "Friday"
+      ],
+      "peak_months": [
+        1.0,
+        7.0,
+        3.0
+      ],
+      "top_time_combinations": [
+        [
+          "Tuesday",
+          18.0,
+          62.635714285714286
+        ],
+        [
+          "Saturday",
+          9.0,
+          58.76307692307692
+        ],
+        [
+          "Sunday",
+          13.0,
+          57.653333333333336
+        ],
+        [
+          "Sunday",
+          18.0,
+          57.64528301886792
+        ],
+        [
+          "Friday",
+          20.0,
+          55.70233848183976
+        ]
+      ],
+      "avg_peak_duration_hours": 0.7,
+      "peak_intensity_multiplier": 1.83,
+      "extreme_intensity_multiplier": 2.38,
+      "peak_frequency_pct": 4.5,
+      "demand_statistics": {
+        "normal_avg": 34.5,
+        "peak_avg": 63.1,
+        "extreme_avg": 82.2,
+        "overall_std": 19.7
+      }
+    },
+    "fast casual": {
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "peak_days": [
+        "Saturday",
+        "Sunday",
+        "Friday"
+      ],
+      "peak_months": [
+        1.0,
+        4.0,
+        2.0
+      ],
+      "top_time_combinations": [
+        [
+          "Wednesday",
+          17.0,
+          76.52093023255813
+        ],
+        [
+          "Sunday",
+          18.0,
+          74.0
+        ],
+        [
+          "Friday",
+          19.0,
+          73.88571428571427
+        ],
+        [
+          "Sunday",
+          20.0,
+          73.56
+        ],
+        [
+          "Sunday",
+          19.0,
+          73.3953488372093
+        ]
+      ],
+      "avg_peak_duration_hours": 0.7,
+      "peak_intensity_multiplier": 2.13,
+      "extreme_intensity_multiplier": 2.74,
+      "peak_frequency_pct": 4.5,
+      "demand_statistics": {
+        "normal_avg": 37.2,
+        "peak_avg": 79.2,
+        "extreme_avg": 101.8,
+        "overall_std": 26.5
+      }
+    },
+    "seafood": {
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "peak_days": [
+        "Sunday",
+        "Saturday",
+        "Friday"
+      ],
+      "peak_months": [
+        3.0,
+        8.0,
+        1.0
+      ],
+      "top_time_combinations": [
+        [
+          "Sunday",
+          19.0,
+          81.25
+        ],
+        [
+          "Sunday",
+          20.0,
+          77.25
+        ],
+        [
+          "Saturday",
+          19.0,
+          76.08421052631579
+        ],
+        [
+          "Sunday",
+          18.0,
+          74.58
+        ],
+        [
+          "Saturday",
+          20.0,
+          72.95625
+        ]
+      ],
+      "avg_peak_duration_hours": 0.7,
+      "peak_intensity_multiplier": 2.14,
+      "extreme_intensity_multiplier": 2.89,
+      "peak_frequency_pct": 4.7,
+      "demand_statistics": {
+        "normal_avg": 36.5,
+        "peak_avg": 78.2,
+        "extreme_avg": 105.6,
+        "overall_std": 26.6
+      }
+    }
+  },
+  "pattern_analysis": {
+    "casual bistro": {
+      "pattern_type": "Dual Peak (Lunch & Dinner)",
+      "lunch_peak_hours": [
+        13.0
+      ],
+      "dinner_peak_hours": [
+        18.0,
+        19.0,
+        20.0
+      ],
+      "unusual_peak_hours": [],
+      "weekend_bias": 1.36,
+      "hourly_consistency": 0.64,
+      "seasonal_stability": 0.96,
+      "predictability_score": 0.8,
+      "peak_spread": 4
+    },
+    "fine dining": {
+      "pattern_type": "Dual Peak (Lunch & Dinner)",
+      "lunch_peak_hours": [
+        13.0
+      ],
+      "dinner_peak_hours": [
+        18.0,
+        19.0,
+        20.0
+      ],
+      "unusual_peak_hours": [],
+      "weekend_bias": 1.18,
+      "hourly_consistency": 0.0,
+      "seasonal_stability": 0.97,
+      "predictability_score": 0.49,
+      "peak_spread": 4
+    },
+    "family restaurant": {
+      "pattern_type": "Dual Peak (Lunch & Dinner)",
+      "lunch_peak_hours": [
+        13.0
+      ],
+      "dinner_peak_hours": [
+        18.0,
+        19.0,
+        20.0
+      ],
+      "unusual_peak_hours": [],
+      "weekend_bias": 1.31,
+      "hourly_consistency": 0.67,
+      "seasonal_stability": 0.96,
+      "predictability_score": 0.81,
+      "peak_spread": 4
+    },
+    "fast casual": {
+      "pattern_type": "Dual Peak (Lunch & Dinner)",
+      "lunch_peak_hours": [
+        13.0
+      ],
+      "dinner_peak_hours": [
+        18.0,
+        19.0,
+        20.0
+      ],
+      "unusual_peak_hours": [],
+      "weekend_bias": 1.18,
+      "hourly_consistency": 0.68,
+      "seasonal_stability": 0.98,
+      "predictability_score": 0.83,
+      "peak_spread": 4
+    },
+    "seafood": {
+      "pattern_type": "Dual Peak (Lunch & Dinner)",
+      "lunch_peak_hours": [
+        13.0
+      ],
+      "dinner_peak_hours": [
+        18.0,
+        19.0,
+        20.0
+      ],
+      "unusual_peak_hours": [],
+      "weekend_bias": 1.43,
+      "hourly_consistency": 0.6,
+      "seasonal_stability": 0.95,
+      "predictability_score": 0.78,
+      "peak_spread": 4
+    }
+  },
+  "recommendations": [
+    {
+      "restaurant": "casual bistro",
+      "recommendation": "\ud83d\udea8 Casual Bistro: Critical staffing needed - 2.1x normal demand during peaks",
+      "priority": "HIGH",
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "intensity": 2.09,
+      "duration": 0.7
+    },
+    {
+      "restaurant": "fine dining",
+      "recommendation": "\u26a0\ufe0f Fine Dining: Significant staffing increase needed - 1.8x normal demand",
+      "priority": "MEDIUM",
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "intensity": 1.8,
+      "duration": 0.7
+    },
+    {
+      "restaurant": "family restaurant",
+      "recommendation": "\u26a0\ufe0f Family Restaurant: Significant staffing increase needed - 1.8x normal demand",
+      "priority": "MEDIUM",
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "intensity": 1.83,
+      "duration": 0.7
+    },
+    {
+      "restaurant": "fast casual",
+      "recommendation": "\ud83d\udea8 Fast Casual: Critical staffing needed - 2.1x normal demand during peaks",
+      "priority": "HIGH",
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "intensity": 2.13,
+      "duration": 0.7
+    },
+    {
+      "restaurant": "seafood",
+      "recommendation": "\ud83d\udea8 Seafood: Critical staffing needed - 2.1x normal demand during peaks",
+      "priority": "HIGH",
+      "peak_hours": [
+        13.0,
+        18.0,
+        19.0,
+        20.0
+      ],
+      "intensity": 2.14,
+      "duration": 0.7
+    }
+  ],
+  "summary_statistics": {
+    "total_restaurants_analyzed": 5,
+    "avg_peak_intensity": 2.0,
+    "avg_peak_duration": 0.7,
+    "avg_peak_frequency": 4.86
+  }
+}

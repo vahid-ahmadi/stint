@@ -1,0 +1,444 @@
+{
+  "analysis_timestamp": "2025-09-03T21:05:47.218374",
+  "restaurant_analysis": {
+    "casual bistro": {
+      "mean_demand": 39.1,
+      "std_demand": 23.1,
+      "cv_demand": 0.591,
+      "quartile_dispersion": 0.323,
+      "hourly_consistency": 0.568,
+      "daily_consistency": 0.44,
+      "seasonal_cv": 0.035,
+      "autocorr_1period": 0.207,
+      "autocorr_24h": 0.067,
+      "autocorr_7d": 0.041,
+      "autocorr_predictability": 0.105,
+      "avg_external_sensitivity": 0.047,
+      "max_external_sensitivity": 0.138,
+      "peak_regularity": 0.11,
+      "avg_peak_interval_hours": 3.7,
+      "num_peaks": 1348,
+      "weekend_volatility_ratio": 0.796,
+      "peak_volatility_ratio": 0.748,
+      "revenue_consistency": -9.874,
+      "capacity_cv": 0.592,
+      "difficulty_components": {
+        "volatility": 0.985,
+        "predictability": 0.895,
+        "consistency": 0.496,
+        "external": 0.047,
+        "irregularity": 0.89,
+        "conditional_vol": -0.228
+      },
+      "composite_difficulty": 0.654,
+      "trend_strength": 0.066,
+      "naive_mae": 21.1,
+      "naive_rmse": 31.6,
+      "naive_mape": 28895.2,
+      "ma7_mae": 15.3,
+      "ma7_rmse": 22.9,
+      "ma7_mape": 29545.9,
+      "sample_size": 9968
+    },
+    "fine dining": {
+      "mean_demand": 24.4,
+      "std_demand": 11.0,
+      "cv_demand": 0.452,
+      "quartile_dispersion": 0.22,
+      "hourly_consistency": -0.865,
+      "daily_consistency": 0.555,
+      "seasonal_cv": 0.016,
+      "autocorr_1period": 0.148,
+      "autocorr_24h": 0.017,
+      "autocorr_7d": 0.036,
+      "autocorr_predictability": 0.067,
+      "avg_external_sensitivity": 0.028,
+      "max_external_sensitivity": 0.088,
+      "peak_regularity": 0.211,
+      "avg_peak_interval_hours": 3.5,
+      "num_peaks": 1447,
+      "weekend_volatility_ratio": 0.871,
+      "peak_volatility_ratio": 0.573,
+      "revenue_consistency": -9.727,
+      "capacity_cv": 0.452,
+      "difficulty_components": {
+        "volatility": 0.753,
+        "predictability": 0.933,
+        "consistency": 1.155,
+        "external": 0.028,
+        "irregularity": 0.789,
+        "conditional_vol": -0.278
+      },
+      "composite_difficulty": 0.722,
+      "trend_strength": 0.035,
+      "naive_mae": 11.2,
+      "naive_rmse": 15.5,
+      "naive_mape": 18076.3,
+      "ma7_mae": 7.7,
+      "ma7_rmse": 11.0,
+      "ma7_mape": 18197.5,
+      "sample_size": 10037
+    },
+    "family restaurant": {
+      "mean_demand": 40.3,
+      "std_demand": 20.9,
+      "cv_demand": 0.518,
+      "quartile_dispersion": 0.265,
+      "hourly_consistency": 0.614,
+      "daily_consistency": 0.495,
+      "seasonal_cv": 0.028,
+      "autocorr_1period": 0.148,
+      "autocorr_24h": 0.04,
+      "autocorr_7d": 0.027,
+      "autocorr_predictability": 0.071,
+      "avg_external_sensitivity": 0.037,
+      "max_external_sensitivity": 0.125,
+      "peak_regularity": 0.155,
+      "avg_peak_interval_hours": 3.5,
+      "num_peaks": 1431,
+      "weekend_volatility_ratio": 0.703,
+      "peak_volatility_ratio": 0.559,
+      "revenue_consistency": -9.138,
+      "capacity_cv": 0.518,
+      "difficulty_components": {
+        "volatility": 0.863,
+        "predictability": 0.929,
+        "consistency": 0.446,
+        "external": 0.037,
+        "irregularity": 0.845,
+        "conditional_vol": -0.369
+      },
+      "composite_difficulty": 0.609,
+      "trend_strength": 0.069,
+      "naive_mae": 18.8,
+      "naive_rmse": 28.9,
+      "naive_mape": 29963.9,
+      "ma7_mae": 13.5,
+      "ma7_rmse": 20.8,
+      "ma7_mape": 29122.4,
+      "sample_size": 10025
+    },
+    "fast casual": {
+      "mean_demand": 45.7,
+      "std_demand": 25.4,
+      "cv_demand": 0.554,
+      "quartile_dispersion": 0.325,
+      "hourly_consistency": 0.652,
+      "daily_consistency": 0.454,
+      "seasonal_cv": 0.031,
+      "autocorr_1period": 0.187,
+      "autocorr_24h": 0.046,
+      "autocorr_7d": 0.021,
+      "autocorr_predictability": 0.085,
+      "avg_external_sensitivity": 0.055,
+      "max_external_sensitivity": 0.167,
+      "peak_regularity": 0.226,
+      "avg_peak_interval_hours": 3.3,
+      "num_peaks": 1513,
+      "weekend_volatility_ratio": 0.826,
+      "peak_volatility_ratio": 0.528,
+      "revenue_consistency": -10.146,
+      "capacity_cv": 0.556,
+      "difficulty_components": {
+        "volatility": 0.924,
+        "predictability": 0.915,
+        "consistency": 0.447,
+        "external": 0.055,
+        "irregularity": 0.774,
+        "conditional_vol": -0.323
+      },
+      "composite_difficulty": 0.619,
+      "trend_strength": 0.078,
+      "naive_mae": 25.0,
+      "naive_rmse": 35.0,
+      "naive_mape": 34548.5,
+      "ma7_mae": 17.7,
+      "ma7_rmse": 25.0,
+      "ma7_mape": 34667.4,
+      "sample_size": 10097
+    },
+    "seafood": {
+      "mean_demand": 44.6,
+      "std_demand": 26.0,
+      "cv_demand": 0.584,
+      "quartile_dispersion": 0.297,
+      "hourly_consistency": 0.585,
+      "daily_consistency": 0.449,
+      "seasonal_cv": 0.041,
+      "autocorr_1period": 0.203,
+      "autocorr_24h": 0.065,
+      "autocorr_7d": 0.001,
+      "autocorr_predictability": 0.09,
+      "avg_external_sensitivity": 0.036,
+      "max_external_sensitivity": 0.085,
+      "peak_regularity": 0.012,
+      "avg_peak_interval_hours": 3.8,
+      "num_peaks": 1284,
+      "weekend_volatility_ratio": 0.71,
+      "peak_volatility_ratio": 0.872,
+      "revenue_consistency": -9.913,
+      "capacity_cv": 0.584,
+      "difficulty_components": {
+        "volatility": 0.974,
+        "predictability": 0.91,
+        "consistency": 0.483,
+        "external": 0.036,
+        "irregularity": 0.988,
+        "conditional_vol": -0.209
+      },
+      "composite_difficulty": 0.661,
+      "trend_strength": 0.044,
+      "naive_mae": 23.3,
+      "naive_rmse": 35.6,
+      "naive_mape": 32388.0,
+      "ma7_mae": 16.9,
+      "ma7_rmse": 25.8,
+      "ma7_mape": 32223.1,
+      "sample_size": 9873
+    }
+  },
+  "comparison_summary": [
+    {
+      "Restaurant_Type": "fine dining",
+      "Difficulty_Score": 0.722,
+      "CV_Demand": 0.452,
+      "Autocorr_Predictability": 0.067,
+      "External_Sensitivity": 0.028,
+      "Pattern_Consistency": -0.15499999999999997,
+      "Peak_Regularity": 0.211,
+      "Weekend_Volatility_Ratio": 0.871,
+      "Naive_MAPE": 18076.3,
+      "MA7_MAPE": 18197.5,
+      "Sample_Size": 10037
+    },
+    {
+      "Restaurant_Type": "seafood",
+      "Difficulty_Score": 0.661,
+      "CV_Demand": 0.584,
+      "Autocorr_Predictability": 0.09,
+      "External_Sensitivity": 0.036,
+      "Pattern_Consistency": 0.517,
+      "Peak_Regularity": 0.012,
+      "Weekend_Volatility_Ratio": 0.71,
+      "Naive_MAPE": 32388.0,
+      "MA7_MAPE": 32223.1,
+      "Sample_Size": 9873
+    },
+    {
+      "Restaurant_Type": "casual bistro",
+      "Difficulty_Score": 0.654,
+      "CV_Demand": 0.591,
+      "Autocorr_Predictability": 0.105,
+      "External_Sensitivity": 0.047,
+      "Pattern_Consistency": 0.504,
+      "Peak_Regularity": 0.11,
+      "Weekend_Volatility_Ratio": 0.796,
+      "Naive_MAPE": 28895.2,
+      "MA7_MAPE": 29545.9,
+      "Sample_Size": 9968
+    },
+    {
+      "Restaurant_Type": "fast casual",
+      "Difficulty_Score": 0.619,
+      "CV_Demand": 0.554,
+      "Autocorr_Predictability": 0.085,
+      "External_Sensitivity": 0.055,
+      "Pattern_Consistency": 0.553,
+      "Peak_Regularity": 0.226,
+      "Weekend_Volatility_Ratio": 0.826,
+      "Naive_MAPE": 34548.5,
+      "MA7_MAPE": 34667.4,
+      "Sample_Size": 10097
+    },
+    {
+      "Restaurant_Type": "family restaurant",
+      "Difficulty_Score": 0.609,
+      "CV_Demand": 0.518,
+      "Autocorr_Predictability": 0.071,
+      "External_Sensitivity": 0.037,
+      "Pattern_Consistency": 0.5545,
+      "Peak_Regularity": 0.155,
+      "Weekend_Volatility_Ratio": 0.703,
+      "Naive_MAPE": 29963.9,
+      "MA7_MAPE": 29122.4,
+      "Sample_Size": 10025
+    }
+  ],
+  "challenges": {
+    "casual bistro": [
+      {
+        "type": "High Volatility",
+        "severity": "Medium",
+        "description": "Demand CV of 0.591 indicates highly unpredictable demand swings",
+        "recommendation": "Implement buffer staffing and flexible scheduling"
+      },
+      {
+        "type": "Low Predictability",
+        "severity": "Medium",
+        "description": "Low autocorrelation (0.105) means past patterns don't predict future well",
+        "recommendation": "Focus on real-time demand signals and short-term forecasting"
+      },
+      {
+        "type": "Irregular Peak Patterns",
+        "severity": "Medium",
+        "description": "Irregular peak timing (0.110) makes staffing optimization difficult",
+        "recommendation": "Use flexible staffing with on-call personnel for peaks"
+      },
+      {
+        "type": "Revenue Pattern Mismatch",
+        "severity": "Low",
+        "description": "Customer count and revenue patterns don't align well (-9.874)",
+        "recommendation": "Monitor both customer forecasts and revenue per customer trends"
+      },
+      {
+        "type": "High Forecast Errors",
+        "severity": "High",
+        "description": "High baseline forecast errors (Naive MAPE: 28895.2%)",
+        "recommendation": "Invest in advanced forecasting methods and more frequent model updates"
+      }
+    ],
+    "fine dining": [
+      {
+        "type": "Low Predictability",
+        "severity": "High",
+        "description": "Low autocorrelation (0.067) means past patterns don't predict future well",
+        "recommendation": "Focus on real-time demand signals and short-term forecasting"
+      },
+      {
+        "type": "Irregular Patterns",
+        "severity": "High",
+        "description": "Low pattern consistency (-0.155) makes template-based forecasting difficult",
+        "recommendation": "Use adaptive algorithms that can handle pattern changes"
+      },
+      {
+        "type": "Irregular Peak Patterns",
+        "severity": "Medium",
+        "description": "Irregular peak timing (0.211) makes staffing optimization difficult",
+        "recommendation": "Use flexible staffing with on-call personnel for peaks"
+      },
+      {
+        "type": "Revenue Pattern Mismatch",
+        "severity": "Low",
+        "description": "Customer count and revenue patterns don't align well (-9.727)",
+        "recommendation": "Monitor both customer forecasts and revenue per customer trends"
+      },
+      {
+        "type": "High Forecast Errors",
+        "severity": "High",
+        "description": "High baseline forecast errors (Naive MAPE: 18076.3%)",
+        "recommendation": "Invest in advanced forecasting methods and more frequent model updates"
+      }
+    ],
+    "family restaurant": [
+      {
+        "type": "High Volatility",
+        "severity": "Medium",
+        "description": "Demand CV of 0.518 indicates highly unpredictable demand swings",
+        "recommendation": "Implement buffer staffing and flexible scheduling"
+      },
+      {
+        "type": "Low Predictability",
+        "severity": "High",
+        "description": "Low autocorrelation (0.071) means past patterns don't predict future well",
+        "recommendation": "Focus on real-time demand signals and short-term forecasting"
+      },
+      {
+        "type": "Irregular Peak Patterns",
+        "severity": "Medium",
+        "description": "Irregular peak timing (0.155) makes staffing optimization difficult",
+        "recommendation": "Use flexible staffing with on-call personnel for peaks"
+      },
+      {
+        "type": "Revenue Pattern Mismatch",
+        "severity": "Low",
+        "description": "Customer count and revenue patterns don't align well (-9.138)",
+        "recommendation": "Monitor both customer forecasts and revenue per customer trends"
+      },
+      {
+        "type": "High Forecast Errors",
+        "severity": "High",
+        "description": "High baseline forecast errors (Naive MAPE: 29963.9%)",
+        "recommendation": "Invest in advanced forecasting methods and more frequent model updates"
+      }
+    ],
+    "fast casual": [
+      {
+        "type": "High Volatility",
+        "severity": "Medium",
+        "description": "Demand CV of 0.554 indicates highly unpredictable demand swings",
+        "recommendation": "Implement buffer staffing and flexible scheduling"
+      },
+      {
+        "type": "Low Predictability",
+        "severity": "High",
+        "description": "Low autocorrelation (0.085) means past patterns don't predict future well",
+        "recommendation": "Focus on real-time demand signals and short-term forecasting"
+      },
+      {
+        "type": "Irregular Peak Patterns",
+        "severity": "Medium",
+        "description": "Irregular peak timing (0.226) makes staffing optimization difficult",
+        "recommendation": "Use flexible staffing with on-call personnel for peaks"
+      },
+      {
+        "type": "Revenue Pattern Mismatch",
+        "severity": "Low",
+        "description": "Customer count and revenue patterns don't align well (-10.146)",
+        "recommendation": "Monitor both customer forecasts and revenue per customer trends"
+      },
+      {
+        "type": "High Forecast Errors",
+        "severity": "High",
+        "description": "High baseline forecast errors (Naive MAPE: 34548.5%)",
+        "recommendation": "Invest in advanced forecasting methods and more frequent model updates"
+      }
+    ],
+    "seafood": [
+      {
+        "type": "High Volatility",
+        "severity": "Medium",
+        "description": "Demand CV of 0.584 indicates highly unpredictable demand swings",
+        "recommendation": "Implement buffer staffing and flexible scheduling"
+      },
+      {
+        "type": "Low Predictability",
+        "severity": "High",
+        "description": "Low autocorrelation (0.090) means past patterns don't predict future well",
+        "recommendation": "Focus on real-time demand signals and short-term forecasting"
+      },
+      {
+        "type": "Irregular Peak Patterns",
+        "severity": "Medium",
+        "description": "Irregular peak timing (0.012) makes staffing optimization difficult",
+        "recommendation": "Use flexible staffing with on-call personnel for peaks"
+      },
+      {
+        "type": "Revenue Pattern Mismatch",
+        "severity": "Low",
+        "description": "Customer count and revenue patterns don't align well (-9.913)",
+        "recommendation": "Monitor both customer forecasts and revenue per customer trends"
+      },
+      {
+        "type": "High Forecast Errors",
+        "severity": "High",
+        "description": "High baseline forecast errors (Naive MAPE: 32388.0%)",
+        "recommendation": "Invest in advanced forecasting methods and more frequent model updates"
+      }
+    ]
+  },
+  "key_insights": {
+    "hardest_restaurant": "fine dining",
+    "hardest_score": 0.722,
+    "easiest_restaurant": "family restaurant",
+    "easiest_score": 0.609,
+    "average_difficulty": 0.6529999999999999,
+    "difficulty_range": 0.0444915722356493
+  },
+  "strategic_recommendations": [
+    "Implement tiered forecasting approach based on difficulty scores",
+    "Develop restaurant-type specific models and parameters",
+    "Allocate more resources to high-difficulty restaurant types",
+    "Implement specialized monitoring for external-factor sensitive types",
+    "Use simpler methods for consistently predictable restaurant types"
+  ]
+}

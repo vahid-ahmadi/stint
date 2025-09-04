@@ -1,0 +1,644 @@
+{
+  "analysis_timestamp": "2025-09-03T21:05:13.389193",
+  "difficulty_metrics": {
+    "casual bistro": {
+      "overall_cv": 0.605,
+      "avg_rolling_cv": 0.525,
+      "max_rolling_cv": 2.116,
+      "autocorr_lag1": 0.161,
+      "autocorr_lag24": 0.024,
+      "trend_change_frequency": 0.573,
+      "peak_regularity": 0.234,
+      "external_sensitivity_avg": 0.048,
+      "external_sensitivity_max": 0.131,
+      "event_volatility_ratio": 1.052,
+      "weather_volatility_ratio": 1.13,
+      "difficulty_components": {
+        "volatility": 1.0,
+        "rolling_volatility": 1.0,
+        "external_sensitivity": 0.048,
+        "trend_instability": 0.573,
+        "peak_irregularity": 0.766,
+        "low_autocorr": 0.839,
+        "event_impact": 0.026,
+        "weather_impact": 0.065
+      },
+      "composite_difficulty_score": 0.61,
+      "hourly_volatility": 17.0,
+      "daily_volatility": 22.3,
+      "monthly_volatility": 23.0
+    },
+    "fine dining": {
+      "overall_cv": 0.458,
+      "avg_rolling_cv": 0.443,
+      "max_rolling_cv": 1.339,
+      "autocorr_lag1": 0.113,
+      "autocorr_lag24": 0.009,
+      "trend_change_frequency": 0.558,
+      "peak_regularity": 0.35,
+      "external_sensitivity_avg": 0.031,
+      "external_sensitivity_max": 0.097,
+      "event_volatility_ratio": 0.931,
+      "weather_volatility_ratio": 0.956,
+      "difficulty_components": {
+        "volatility": 0.916,
+        "rolling_volatility": 0.886,
+        "external_sensitivity": 0.031,
+        "trend_instability": 0.558,
+        "peak_irregularity": 0.65,
+        "low_autocorr": 0.887,
+        "event_impact": -0.034,
+        "weather_impact": -0.022
+      },
+      "composite_difficulty_score": 0.554,
+      "hourly_volatility": 7.7,
+      "daily_volatility": 11.0,
+      "monthly_volatility": 11.1
+    },
+    "family restaurant": {
+      "overall_cv": 0.525,
+      "avg_rolling_cv": 0.459,
+      "max_rolling_cv": 2.184,
+      "autocorr_lag1": 0.122,
+      "autocorr_lag24": 0.014,
+      "trend_change_frequency": 0.59,
+      "peak_regularity": 0.247,
+      "external_sensitivity_avg": 0.037,
+      "external_sensitivity_max": 0.121,
+      "event_volatility_ratio": 0.976,
+      "weather_volatility_ratio": 1.292,
+      "difficulty_components": {
+        "volatility": 1.0,
+        "rolling_volatility": 0.919,
+        "external_sensitivity": 0.037,
+        "trend_instability": 0.59,
+        "peak_irregularity": 0.753,
+        "low_autocorr": 0.878,
+        "event_impact": -0.012,
+        "weather_impact": 0.146
+      },
+      "composite_difficulty_score": 0.605,
+      "hourly_volatility": 15.3,
+      "daily_volatility": 20.1,
+      "monthly_volatility": 20.3
+    },
+    "fast casual": {
+      "overall_cv": 0.566,
+      "avg_rolling_cv": 0.514,
+      "max_rolling_cv": 2.552,
+      "autocorr_lag1": 0.14,
+      "autocorr_lag24": 0.047,
+      "trend_change_frequency": 0.585,
+      "peak_regularity": 0.342,
+      "external_sensitivity_avg": 0.055,
+      "external_sensitivity_max": 0.161,
+      "event_volatility_ratio": 0.966,
+      "weather_volatility_ratio": 0.994,
+      "difficulty_components": {
+        "volatility": 1.0,
+        "rolling_volatility": 1.0,
+        "external_sensitivity": 0.055,
+        "trend_instability": 0.585,
+        "peak_irregularity": 0.658,
+        "low_autocorr": 0.86,
+        "event_impact": -0.017,
+        "weather_impact": -0.003
+      },
+      "composite_difficulty_score": 0.596,
+      "hourly_volatility": 16.0,
+      "daily_volatility": 25.1,
+      "monthly_volatility": 25.1
+    },
+    "seafood": {
+      "overall_cv": 0.575,
+      "avg_rolling_cv": 0.516,
+      "max_rolling_cv": 2.627,
+      "autocorr_lag1": 0.17,
+      "autocorr_lag24": 0.029,
+      "trend_change_frequency": 0.58,
+      "peak_regularity": 0.229,
+      "external_sensitivity_avg": 0.036,
+      "external_sensitivity_max": 0.088,
+      "event_volatility_ratio": 0.899,
+      "weather_volatility_ratio": 0.876,
+      "difficulty_components": {
+        "volatility": 1.0,
+        "rolling_volatility": 1.0,
+        "external_sensitivity": 0.036,
+        "trend_instability": 0.58,
+        "peak_irregularity": 0.771,
+        "low_autocorr": 0.83,
+        "event_impact": -0.051,
+        "weather_impact": -0.062
+      },
+      "composite_difficulty_score": 0.594,
+      "hourly_volatility": 18.1,
+      "daily_volatility": 23.8,
+      "monthly_volatility": 25.0
+    }
+  },
+  "hardest_conditions": {
+    "High Local Events": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 1.07,
+          "demand_deviation": 0.17,
+          "condition_difficulty": 0.62,
+          "sample_size": 47
+        },
+        "fine dining": {
+          "volatility_ratio": 0.85,
+          "demand_deviation": 0.22,
+          "condition_difficulty": 0.53,
+          "sample_size": 41
+        },
+        "family restaurant": {
+          "volatility_ratio": 1.23,
+          "demand_deviation": 0.04,
+          "condition_difficulty": 0.63,
+          "sample_size": 38
+        },
+        "fast casual": {
+          "volatility_ratio": 0.96,
+          "demand_deviation": 0.02,
+          "condition_difficulty": 0.49,
+          "sample_size": 35
+        },
+        "seafood": {
+          "volatility_ratio": 0.9,
+          "demand_deviation": 0.03,
+          "condition_difficulty": 0.47,
+          "sample_size": 38
+        }
+      },
+      "avg_difficulty": 0.548,
+      "max_difficulty": 0.63,
+      "total_occurrences": 199,
+      "percentage_of_data": 0.7
+    },
+    "Viral Social Media": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 0.98,
+          "demand_deviation": 0.08,
+          "condition_difficulty": 0.53,
+          "sample_size": 578
+        },
+        "fine dining": {
+          "volatility_ratio": 0.99,
+          "demand_deviation": 0.03,
+          "condition_difficulty": 0.51,
+          "sample_size": 608
+        },
+        "family restaurant": {
+          "volatility_ratio": 0.89,
+          "demand_deviation": 0.04,
+          "condition_difficulty": 0.47,
+          "sample_size": 624
+        },
+        "fast casual": {
+          "volatility_ratio": 0.94,
+          "demand_deviation": 0.14,
+          "condition_difficulty": 0.54,
+          "sample_size": 606
+        },
+        "seafood": {
+          "volatility_ratio": 0.81,
+          "demand_deviation": 0.03,
+          "condition_difficulty": 0.42,
+          "sample_size": 555
+        }
+      },
+      "avg_difficulty": 0.494,
+      "max_difficulty": 0.54,
+      "total_occurrences": 2971,
+      "percentage_of_data": 9.9
+    },
+    "Extreme Weather": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 0.78,
+          "demand_deviation": 0.09,
+          "condition_difficulty": 0.44,
+          "sample_size": 1092
+        },
+        "fine dining": {
+          "volatility_ratio": 1.0,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.5,
+          "sample_size": 1098
+        },
+        "family restaurant": {
+          "volatility_ratio": 0.89,
+          "demand_deviation": 0.02,
+          "condition_difficulty": 0.45,
+          "sample_size": 1093
+        },
+        "fast casual": {
+          "volatility_ratio": 0.86,
+          "demand_deviation": 0.08,
+          "condition_difficulty": 0.47,
+          "sample_size": 1133
+        },
+        "seafood": {
+          "volatility_ratio": 0.75,
+          "demand_deviation": 0.16,
+          "condition_difficulty": 0.46,
+          "sample_size": 1043
+        }
+      },
+      "avg_difficulty": 0.464,
+      "max_difficulty": 0.5,
+      "total_occurrences": 5459,
+      "percentage_of_data": 18.2
+    },
+    "High Competition": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 0.84,
+          "demand_deviation": 0.03,
+          "condition_difficulty": 0.43,
+          "sample_size": 1128
+        },
+        "fine dining": {
+          "volatility_ratio": 0.95,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.48,
+          "sample_size": 1092
+        },
+        "family restaurant": {
+          "volatility_ratio": 0.97,
+          "demand_deviation": 0.0,
+          "condition_difficulty": 0.49,
+          "sample_size": 1120
+        },
+        "fast casual": {
+          "volatility_ratio": 0.89,
+          "demand_deviation": 0.04,
+          "condition_difficulty": 0.47,
+          "sample_size": 1085
+        },
+        "seafood": {
+          "volatility_ratio": 1.6,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.81,
+          "sample_size": 1090
+        }
+      },
+      "avg_difficulty": 0.536,
+      "max_difficulty": 0.81,
+      "total_occurrences": 5515,
+      "percentage_of_data": 18.4
+    },
+    "Economic Volatility": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 1.56,
+          "demand_deviation": 0.0,
+          "condition_difficulty": 0.78,
+          "sample_size": 1151
+        },
+        "fine dining": {
+          "volatility_ratio": 0.98,
+          "demand_deviation": 0.0,
+          "condition_difficulty": 0.49,
+          "sample_size": 1220
+        },
+        "family restaurant": {
+          "volatility_ratio": 0.93,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.47,
+          "sample_size": 1207
+        },
+        "fast casual": {
+          "volatility_ratio": 0.87,
+          "demand_deviation": 0.03,
+          "condition_difficulty": 0.45,
+          "sample_size": 1145
+        },
+        "seafood": {
+          "volatility_ratio": 1.46,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.74,
+          "sample_size": 1219
+        }
+      },
+      "avg_difficulty": 0.586,
+      "max_difficulty": 0.78,
+      "total_occurrences": 5942,
+      "percentage_of_data": 19.8
+    },
+    "Weekend Rush": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 0.74,
+          "demand_deviation": 0.58,
+          "condition_difficulty": 0.66,
+          "sample_size": 843
+        },
+        "fine dining": {
+          "volatility_ratio": 0.81,
+          "demand_deviation": 0.38,
+          "condition_difficulty": 0.6,
+          "sample_size": 860
+        },
+        "family restaurant": {
+          "volatility_ratio": 0.71,
+          "demand_deviation": 0.4,
+          "condition_difficulty": 0.55,
+          "sample_size": 863
+        },
+        "fast casual": {
+          "volatility_ratio": 0.77,
+          "demand_deviation": 0.48,
+          "condition_difficulty": 0.62,
+          "sample_size": 832
+        },
+        "seafood": {
+          "volatility_ratio": 0.81,
+          "demand_deviation": 0.65,
+          "condition_difficulty": 0.73,
+          "sample_size": 845
+        }
+      },
+      "avg_difficulty": 0.632,
+      "max_difficulty": 0.73,
+      "total_occurrences": 4243,
+      "percentage_of_data": 14.1
+    },
+    "Holiday Season": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 0.83,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.42,
+          "sample_size": 1516
+        },
+        "fine dining": {
+          "volatility_ratio": 0.96,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.49,
+          "sample_size": 1543
+        },
+        "family restaurant": {
+          "volatility_ratio": 1.32,
+          "demand_deviation": 0.03,
+          "condition_difficulty": 0.67,
+          "sample_size": 1480
+        },
+        "fast casual": {
+          "volatility_ratio": 0.89,
+          "demand_deviation": 0.01,
+          "condition_difficulty": 0.45,
+          "sample_size": 1446
+        },
+        "seafood": {
+          "volatility_ratio": 0.92,
+          "demand_deviation": 0.02,
+          "condition_difficulty": 0.47,
+          "sample_size": 1436
+        }
+      },
+      "avg_difficulty": 0.5,
+      "max_difficulty": 0.67,
+      "total_occurrences": 7421,
+      "percentage_of_data": 24.7
+    },
+    "Late Night": {
+      "restaurants": {
+        "casual bistro": {
+          "volatility_ratio": 0.77,
+          "demand_deviation": 0.64,
+          "condition_difficulty": 0.71,
+          "sample_size": 769
+        },
+        "fine dining": {
+          "volatility_ratio": 1.47,
+          "demand_deviation": 0.61,
+          "condition_difficulty": 1.04,
+          "sample_size": 757
+        },
+        "family restaurant": {
+          "volatility_ratio": 1.1,
+          "demand_deviation": 0.61,
+          "condition_difficulty": 0.85,
+          "sample_size": 738
+        },
+        "fast casual": {
+          "volatility_ratio": 0.74,
+          "demand_deviation": 0.67,
+          "condition_difficulty": 0.71,
+          "sample_size": 767
+        },
+        "seafood": {
+          "volatility_ratio": 0.79,
+          "demand_deviation": 0.63,
+          "condition_difficulty": 0.71,
+          "sample_size": 739
+        }
+      },
+      "avg_difficulty": 0.804,
+      "max_difficulty": 1.04,
+      "total_occurrences": 3770,
+      "percentage_of_data": 12.6
+    }
+  },
+  "explanations": {
+    "casual bistro": {
+      "difficulty_score": 0.61,
+      "difficulty_level": "DIFFICULT",
+      "main_factors": [
+        "volatility",
+        "rolling_volatility",
+        "low_autocorr"
+      ],
+      "explanation_text": "High demand volatility (CV: 0.60); Low autocorrelation (0.16) - past demand doesn't predict future well; Frequent trend changes (0.57)",
+      "metrics": {
+        "overall_cv": 0.605,
+        "avg_rolling_cv": 0.525,
+        "max_rolling_cv": 2.116,
+        "autocorr_lag1": 0.161,
+        "autocorr_lag24": 0.024,
+        "trend_change_frequency": 0.573,
+        "peak_regularity": 0.234,
+        "external_sensitivity_avg": 0.048,
+        "external_sensitivity_max": 0.131,
+        "event_volatility_ratio": 1.052,
+        "weather_volatility_ratio": 1.13,
+        "difficulty_components": {
+          "volatility": 1.0,
+          "rolling_volatility": 1.0,
+          "external_sensitivity": 0.048,
+          "trend_instability": 0.573,
+          "peak_irregularity": 0.766,
+          "low_autocorr": 0.839,
+          "event_impact": 0.026,
+          "weather_impact": 0.065
+        },
+        "composite_difficulty_score": 0.61,
+        "hourly_volatility": 17.0,
+        "daily_volatility": 22.3,
+        "monthly_volatility": 23.0
+      }
+    },
+    "family restaurant": {
+      "difficulty_score": 0.605,
+      "difficulty_level": "DIFFICULT",
+      "main_factors": [
+        "volatility",
+        "rolling_volatility",
+        "low_autocorr"
+      ],
+      "explanation_text": "High demand volatility (CV: 0.53); Low autocorrelation (0.12) - past demand doesn't predict future well; Frequent trend changes (0.59)",
+      "metrics": {
+        "overall_cv": 0.525,
+        "avg_rolling_cv": 0.459,
+        "max_rolling_cv": 2.184,
+        "autocorr_lag1": 0.122,
+        "autocorr_lag24": 0.014,
+        "trend_change_frequency": 0.59,
+        "peak_regularity": 0.247,
+        "external_sensitivity_avg": 0.037,
+        "external_sensitivity_max": 0.121,
+        "event_volatility_ratio": 0.976,
+        "weather_volatility_ratio": 1.292,
+        "difficulty_components": {
+          "volatility": 1.0,
+          "rolling_volatility": 0.919,
+          "external_sensitivity": 0.037,
+          "trend_instability": 0.59,
+          "peak_irregularity": 0.753,
+          "low_autocorr": 0.878,
+          "event_impact": -0.012,
+          "weather_impact": 0.146
+        },
+        "composite_difficulty_score": 0.605,
+        "hourly_volatility": 15.3,
+        "daily_volatility": 20.1,
+        "monthly_volatility": 20.3
+      }
+    },
+    "fast casual": {
+      "difficulty_score": 0.596,
+      "difficulty_level": "DIFFICULT",
+      "main_factors": [
+        "volatility",
+        "rolling_volatility",
+        "low_autocorr"
+      ],
+      "explanation_text": "High demand volatility (CV: 0.57); Low autocorrelation (0.14) - past demand doesn't predict future well; Frequent trend changes (0.58)",
+      "metrics": {
+        "overall_cv": 0.566,
+        "avg_rolling_cv": 0.514,
+        "max_rolling_cv": 2.552,
+        "autocorr_lag1": 0.14,
+        "autocorr_lag24": 0.047,
+        "trend_change_frequency": 0.585,
+        "peak_regularity": 0.342,
+        "external_sensitivity_avg": 0.055,
+        "external_sensitivity_max": 0.161,
+        "event_volatility_ratio": 0.966,
+        "weather_volatility_ratio": 0.994,
+        "difficulty_components": {
+          "volatility": 1.0,
+          "rolling_volatility": 1.0,
+          "external_sensitivity": 0.055,
+          "trend_instability": 0.585,
+          "peak_irregularity": 0.658,
+          "low_autocorr": 0.86,
+          "event_impact": -0.017,
+          "weather_impact": -0.003
+        },
+        "composite_difficulty_score": 0.596,
+        "hourly_volatility": 16.0,
+        "daily_volatility": 25.1,
+        "monthly_volatility": 25.1
+      }
+    },
+    "seafood": {
+      "difficulty_score": 0.594,
+      "difficulty_level": "DIFFICULT",
+      "main_factors": [
+        "volatility",
+        "rolling_volatility",
+        "low_autocorr"
+      ],
+      "explanation_text": "High demand volatility (CV: 0.57); Low autocorrelation (0.17) - past demand doesn't predict future well; Frequent trend changes (0.58)",
+      "metrics": {
+        "overall_cv": 0.575,
+        "avg_rolling_cv": 0.516,
+        "max_rolling_cv": 2.627,
+        "autocorr_lag1": 0.17,
+        "autocorr_lag24": 0.029,
+        "trend_change_frequency": 0.58,
+        "peak_regularity": 0.229,
+        "external_sensitivity_avg": 0.036,
+        "external_sensitivity_max": 0.088,
+        "event_volatility_ratio": 0.899,
+        "weather_volatility_ratio": 0.876,
+        "difficulty_components": {
+          "volatility": 1.0,
+          "rolling_volatility": 1.0,
+          "external_sensitivity": 0.036,
+          "trend_instability": 0.58,
+          "peak_irregularity": 0.771,
+          "low_autocorr": 0.83,
+          "event_impact": -0.051,
+          "weather_impact": -0.062
+        },
+        "composite_difficulty_score": 0.594,
+        "hourly_volatility": 18.1,
+        "daily_volatility": 23.8,
+        "monthly_volatility": 25.0
+      }
+    },
+    "fine dining": {
+      "difficulty_score": 0.554,
+      "difficulty_level": "DIFFICULT",
+      "main_factors": [
+        "volatility",
+        "low_autocorr",
+        "rolling_volatility"
+      ],
+      "explanation_text": "Low autocorrelation (0.11) - past demand doesn't predict future well; Frequent trend changes (0.56)",
+      "metrics": {
+        "overall_cv": 0.458,
+        "avg_rolling_cv": 0.443,
+        "max_rolling_cv": 1.339,
+        "autocorr_lag1": 0.113,
+        "autocorr_lag24": 0.009,
+        "trend_change_frequency": 0.558,
+        "peak_regularity": 0.35,
+        "external_sensitivity_avg": 0.031,
+        "external_sensitivity_max": 0.097,
+        "event_volatility_ratio": 0.931,
+        "weather_volatility_ratio": 0.956,
+        "difficulty_components": {
+          "volatility": 0.916,
+          "rolling_volatility": 0.886,
+          "external_sensitivity": 0.031,
+          "trend_instability": 0.558,
+          "peak_irregularity": 0.65,
+          "low_autocorr": 0.887,
+          "event_impact": -0.034,
+          "weather_impact": -0.022
+        },
+        "composite_difficulty_score": 0.554,
+        "hourly_volatility": 7.7,
+        "daily_volatility": 11.0,
+        "monthly_volatility": 11.1
+      }
+    }
+  },
+  "summary": {
+    "hardest_restaurant": "casual bistro",
+    "hardest_score": 0.61,
+    "easiest_restaurant": "fine dining",
+    "easiest_score": 0.554,
+    "top_difficult_conditions": [
+      "Late Night",
+      "Weekend Rush",
+      "Economic Volatility"
+    ]
+  }
+}
